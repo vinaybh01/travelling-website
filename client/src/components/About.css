@@ -1,0 +1,36 @@
+/* .about {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-image: url("./components/images/img-8.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+.about-text {
+  margin: 4rem 6rem;
+}
+
+.about-text h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 1rem;
+  text-align: start;
+  font-size: 40px;
+}
+
+.about-text p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 2rem;
+  text-align: start;
+  font-size: 22px;
+}
+
+@media screen {
+}

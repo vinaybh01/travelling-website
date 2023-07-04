@@ -1,0 +1,134 @@
+.footer-container {
+  background-color: #242424;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+
+.footer-main-link {
+  text-decoration: none;
+}
+
+.footer-sub {
+  text-align: center;
+  font-size: 25px;
+  padding: 50px;
+}
+
+.footer-sub-heading {
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.section-text {
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.footer-input {
+  padding: 6px;
+  font-size: 16px;
+  margin: 8px;
+}
+
+.footer-button {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.footer-main-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-sub2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.footer-sub2 > h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.footer-sub2 a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.footer-sub2 a:hover {
+  color: #e9e9e9;
+  transition: 0.3s ease-out;
+}
+
+.social-icon-link {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.website-rights {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-sub2 > h2 {
+    font-size: 17px;
+  }
+  .footer-sub2 > a {
+    font-size: 12px;
+  }
+}
